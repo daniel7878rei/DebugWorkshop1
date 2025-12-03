@@ -5,7 +5,7 @@ char* string_copy(char* dest, unsigned int destsize, char* src)
 {
 	char* ret = dest;
 	while (*dest++ = *src++)
-		;
+		//removed ;
 	return ret;
 }
 
